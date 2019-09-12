@@ -3,16 +3,6 @@
 using namespace std;
 
 
-long double lnatural(int x, int k){
-    double f = (pow(-1,k-1)*pow(x,k))/k;
-    if(k==15){
-        return f;
-    }else{
-        return f+lnatural(x,k+1);
-    }
-}
-
-
 int main(){
     int n;
     cout<<"Ingrese x: ";
