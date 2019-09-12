@@ -8,7 +8,6 @@ int main(){
     cout<<"Ingrese x: ";
     cin>>n;
 
-    cout<<"El valor aprox del ln(1+"<<n<<") = "<<lnatural(n,1);
 
     double R=0;
     double f;
